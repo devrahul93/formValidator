@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 :root {
   --success-color: #2ecc71;
@@ -11,11 +11,11 @@
 
 body {
   background-color: #f9fafb;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
 }
 
@@ -28,7 +28,7 @@ body {
 
 h2 {
   text-align: center;
-  margin: 0 0 2px;
+  margin: 0 0 20px;
 }
 
 .form {
@@ -50,9 +50,10 @@ h2 {
 .form-control input {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
+  display: block;
+  width: 100%;
   padding: 10px;
   font-size: 14px;
-  width: 100%;
 }
 
 .form-control input:focus {
@@ -89,6 +90,6 @@ h2 {
   display: block;
   font-size: 16px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 100%;
 }
